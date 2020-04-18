@@ -11,6 +11,9 @@ a:hover /* Apparence au survol des liens */
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #569c87;
     height: 9%;
     text-align: center;
