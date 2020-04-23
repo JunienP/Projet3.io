@@ -28,8 +28,10 @@ h1 {
     position: relative;
     color: rgb(253, 203, 70);
     font-size: 3em;
-    text-transform: uppercase; 
-    top: -20px;  
+    font-family: 'Poppins';  
+    font-weight: bold;
+    padding-bottom: 20px;
+   
 }
 
 .menus {  
@@ -73,6 +75,7 @@ aside {
     text-align: center;
     color : rgb(253, 203, 70);
     font-size: 2em;
+    font-family: 'Poppins';
     margin-top: 20px;
     margin-bottom: 70px;
 
@@ -82,14 +85,19 @@ aside {
     top : 10px;
 }
 
+.footer {
+    font-size: 1.2em;
+}
+
 footer {
     display : flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: #569c87;
     color: rgb(253, 203, 70);
-    font-size: 1em;
-    height: 5%;
+    font-family: 'Poppins';
+    height: 50px;
     position: fixed;
     bottom: 0px;
     left : 0px;
