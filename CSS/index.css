@@ -35,7 +35,7 @@ h1 {
 }
 
 .menus {  
-    width: 80%;  
+    width: 70%;  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -55,7 +55,7 @@ h1 {
 }
 
 .menu {
-    width: 37%;
+    width: 40%;
     margin-left: 10px;
     margin-right: 10px;
 }
