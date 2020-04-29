@@ -17,10 +17,10 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #569c87;
-    font-family: 'Poppins';
     text-align: center;
-    height: 75px;
+    height: 60px;
     position: fixed;
+    padding-top: 20px;
     top: 0px;
     width: 100%;
     left: 0px;
@@ -160,16 +160,6 @@ p{
 
 @media screen and (min-width: 1148px) {
 
-    header {
-        background-color: #569c87;
-        text-align: center;
-        position: fixed;
-        top: 0px;
-        right: 300px;
-        left: 300px;
-        width: unset;
-    }
-
     .title {
         margin-top: 65px;
     }
@@ -193,19 +183,6 @@ p{
         margin-bottom: 10px;
     }
 
-    footer {
-        width: unset;
-        display : flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #569c87;
-        color: rgb(253, 203, 70);
-        position: fixed;
-        bottom: 0px;
-        right: 300px;
-        left: 300px;   
-    }
-
     h2 {
         font-size:3em;
     }
@@ -222,6 +199,32 @@ p{
     
     p{
         font-size: 1em;
+    }
+
+    header {
+        background-color: #569c87;
+        height: 70px;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 100px;
+        left: 100px;
+        width: unset;
+    }
+
+    footer {
+        width: unset;
+        display : flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #569c87;
+        color: rgb(253, 203, 70);
+        font-size: 1em;
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        right: 100px;
+        left: 100px;   
     }
 }
 
