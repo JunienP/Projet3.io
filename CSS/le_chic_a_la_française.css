@@ -109,6 +109,49 @@ h3 {
     font-family: 'PT Serif';
 }
 
+.contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.anim_one:hover {
+    background-size: 100% 100%;
+}
+
+.anim_one{
+    text-align: center;
+    color: #e08823;
+    background: linear-gradient(to top, #e08823 0%, transparent 10%) no-repeat;
+    background-size: 0 100%;
+    transition : background-size 0.3s;
+}
+
+.anim_two:hover {
+    background-size: 100% 100%;
+}
+
+.anim_two{
+    text-align: center;
+    color: #cea3ca;
+    background: linear-gradient(to top, #cea3ca 0%, transparent 10%) no-repeat;
+    background-size: 0 100%;
+    transition : background-size 0.3s;
+}
+
+.anim_three:hover {
+    background-size: 100% 100%;
+}
+
+.anim_three{
+    text-align: center;
+    color: #8F49FF;
+    background: linear-gradient(to top, #8F49FF 0%, transparent 10%) no-repeat;
+    background-size: 0 100%;
+    transition : background-size 0.3s;
+}
+
 h4 {
     font-size : 0.75em;
     font-family: 'PT Serif';

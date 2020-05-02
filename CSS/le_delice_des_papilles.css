@@ -108,6 +108,24 @@ h3 {
     text-align: center;
 }
 
+.contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+h3:hover {
+    background-size: 100% 100%;
+}
+
+h3 {
+    text-align: center;
+    background: linear-gradient(to top, black 0%, transparent 10%) no-repeat;
+    background-size: 0 100%;
+    transition : background-size 0.3s;
+}
+
 h4 {
     font-size : 0.75em;
     font-family: 'Indie Flower';
