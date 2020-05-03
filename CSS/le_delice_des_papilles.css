@@ -106,13 +106,21 @@ h2 {
 h3 {
     font-size: 0.75em;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contener {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+
+.traits {
+    width: 180px;
+    height: 25  px;
 }
 
 h3:hover {
@@ -172,6 +180,10 @@ p{
 
     .LogoAndTitle {
         margin-bottom: 10px;
+    }
+
+    .traits {
+        width: 50px;
     }
         
 }

@@ -107,12 +107,15 @@ h3 {
     font-size: 0.75em;
     text-align: center;
     font-family: 'PT Serif';
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contener {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -184,6 +187,10 @@ p{
 
 .color3 {
     color:#8F49FF;
+}
+
+.traits {
+    width: 100px;
 }
 
 @media screen and (max-width: 1147px){
