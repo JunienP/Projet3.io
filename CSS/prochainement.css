@@ -35,8 +35,23 @@ h1 {
     padding-bottom: 20px;
    
 }
+
 .footer {
     font-size: 1.2em;
+    display: block;
+    cursor: pointer;
+}
+
+.footer:hover {
+    animation: thing 3s infinite;
+}
+
+@keyframes thing{
+    0%{transform: rotate(0deg)}
+    3%{transform: rotate(-2deg)}
+    4%{transform: rotate(2deg)}
+    5%{transform: rotate(0deg)}
+    100%{transform: rotate(0deg)}
 }
 
 footer {
