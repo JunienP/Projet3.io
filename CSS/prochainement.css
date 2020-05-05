@@ -32,14 +32,9 @@ h1 {
     font-size: 3em;
     font-family: 'Poppins';  
     font-weight: bold;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px; 
 }
 
-h2 {
-    font-size:0.75em;
-    font-family: 'Handlee';
-}
 .contener {
     display: flex;
     flex-direction: column;
@@ -115,10 +110,6 @@ footer {
     width: 100%;  
 }
 
-
-
-
-
 @media screen and (max-width: 1069px){
     body {
         width:100%;
@@ -130,7 +121,8 @@ footer {
     }
 
     .title {
-        margin-top: 70px;
+        margin-top: 90px;
+        font-size: 2em;
     }
         
 }
