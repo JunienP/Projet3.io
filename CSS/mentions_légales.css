@@ -113,12 +113,7 @@ p{
 
     .title {
         margin-top: 70px;
-    }
-
-    .LogoAndTitle {
-        margin-bottom: 10px;
-    }
-        
+    }  
 }
 
 @media screen and (min-width: 1070px) {
@@ -145,10 +140,6 @@ p{
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 10px;
-    }
-
-    .LogoAndTitle {
-        margin-bottom: 10px;
     }
 
     header {

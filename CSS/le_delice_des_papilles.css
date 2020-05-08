@@ -69,13 +69,6 @@ footer {
     width: 100%;  
 }
 
-/* Logo */
-
-.fas.fa-music {
-    font-size: 3em;
-    color: red;
-}
-
 /* Menu */
 
 .title {
@@ -94,19 +87,6 @@ footer {
 .background {
     background-color:  #edefef;
     margin-bottom: 100px ;
-}
-
-.LogoOnTitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.LogoAndTitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 10px;
 }
 
 h2 {
@@ -134,11 +114,11 @@ h3 {
 
 .traits {
     width: 180px;
-    height: 25  px;
+    height: 25px;
 }
 
 h3:hover {
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 h3 {
