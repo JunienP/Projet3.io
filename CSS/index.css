@@ -71,24 +71,57 @@ h1 {
 }
 
 aside {
-    display : flex;
-    flex-direction: row;
+    display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-}
-
-.next {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     width: 300px;
     border-radius: 0.5em;
     background-color: #569c87 ;
     border: 5px solid #569c87;
-    text-align: center;
     color : rgb(253, 203, 70);
-    font-size: 2em;
+    font-size: 1.80em;
     font-family: 'Poppins';
     margin-top: 20px;
     margin-bottom: 70px;
+    max-height: 50px;
+}
 
+@keyframes blink {
+    
+    0% {
+      opacity: .2;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: .2;
+    }
+}
+
+
+span {
+    font-size: 2em;
+}
+
+.futur span {
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.futur span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.futur span:nth-child(3) {
+    animation-delay: .4s;
 }
 
 .btn {
@@ -151,11 +184,6 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-    
-
-    aside {
-        margin-bottom: unset;
     }
 
     header {
