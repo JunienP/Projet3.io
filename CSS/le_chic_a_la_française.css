@@ -26,6 +26,7 @@ header {
     left: 0px;
 }
 
+
 h1 {
     position: relative;
     color: rgb(253, 203, 70);
@@ -182,6 +183,10 @@ p{
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10px;
+}
+
+.dish {
+    max-width: 80%;
 }
 
 .color1 {

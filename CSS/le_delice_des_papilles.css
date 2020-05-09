@@ -80,6 +80,12 @@ footer {
     font-weight: bold;
 }
 
+.LogoOnTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .font_none {
     font-family: unset;
 }
@@ -177,7 +183,11 @@ p{
     }
 
     .traits {
-        width: 50px;
+        width: 100px;
+    }
+
+    .dish {
+        max-width: 80%;
     }
         
 }
@@ -201,10 +211,6 @@ p{
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 10px;
-    }
-
-    .LogoAndTitle {
-        margin-bottom: 10px;
     }
 
     h2 {
