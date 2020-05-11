@@ -1,4 +1,4 @@
-/* haut de page */
+/* Haut de page */
 
 a /* Liens par défaut (non survolés) */
 {
@@ -56,18 +56,21 @@ h1 {
     100%{transform: rotate(0deg)}
 }
 
+
 footer {
     display : flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     background-color: #569c87;
     color: rgb(253, 203, 70);
     font-family: 'Poppins';
     position: fixed;
-    height: 50px;
     bottom: 0px;
     left : 0px;
-    width: 100%;  
+    right: 0px;
+    width: 100%;
+    height: 50px;  
 }
 
 @media screen and (max-width: 1147px){
@@ -110,7 +113,6 @@ footer {
     }
     
     footer {
-        width: unset;
         display : flex;
         flex-direction: row;
         justify-content: space-around;

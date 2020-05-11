@@ -60,7 +60,6 @@ span {
 
 @media screen and (max-width: 1069px){
     body {
-        width:100%;
         display: flex;
         flex-direction: column;
         align-items: center;
